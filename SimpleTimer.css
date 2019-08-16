@@ -8,10 +8,28 @@ and open the template in the editor.
     Author     : KnightDanila
 */
 
-.SimpleTimer {
+.simpleTimer{
     position: absolute;
     top: 0px;
     left: 0px;
+}
+.simpleTimer-white {
+    display: inline-block;
+    background-color: black;
     font-size: 2.5em;
     color: white;
+}
+
+.simpleTimer-black {
+    display: inline-block;
+    background-color: white;
+    font-size: 2.5em;
+    color: black;
+}
+
+.simpleTimer-green {
+    display: inline-block;
+    background-color: black;
+    font-size: 2.5em;
+    color: greenyellow;
 }
