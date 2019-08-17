@@ -8,28 +8,50 @@ and open the template in the editor.
     Author     : KnightDanila
 */
 
-.simpleTimer{
+.simpleTimer {
+    font-size: 2.5em;
+    display: inline-block;
+}
+
+.simpleTimer-fly{
     position: absolute;
+}
+/*Align*/
+.simpleTimer-alignTop{
     top: 0px;
+}
+.simpleTimer-alignCenter{
+    margin-left: 50%;
+    transform: translate(-50%, 0%);
+}
+.simpleTimer-alignCenter-beta{
+    text-align: center;
+    right: 0px;
     left: 0px;
 }
+.simpleTimer-alignLeft{
+    left: 0px;
+}
+.simpleTimer-alignRight{
+    right: 0px;
+}
+
+/*ColorStyles*/
 .simpleTimer-white {
-    display: inline-block;
     background-color: black;
-    font-size: 2.5em;
     color: white;
 }
-
 .simpleTimer-black {
-    display: inline-block;
     background-color: white;
-    font-size: 2.5em;
     color: black;
 }
-
 .simpleTimer-green {
-    display: inline-block;
     background-color: black;
-    font-size: 2.5em;
     color: greenyellow;
+}
+
+/*Border*/
+.simpleTimer-box{
+    padding: 8px;
+    border: 4px solid #ecf5ff;
 }
