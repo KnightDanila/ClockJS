@@ -6,7 +6,7 @@ and open the template in the editor.
 -->
 <html>
     <head>
-        <title>TODO supply a title</title>
+        <title>ClockJS</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -16,24 +16,24 @@ and open the template in the editor.
     <body>
 
         <h1>SimpleTimer.js & SimpleTimer.css</h1>
-        <div id="timer1" class="simpleTimer simpleTimer-white simpleTimer-alignCenter simpleTimer-fly simpleTimer-box">timer1</div>
+        <div id="Timer1" class="simpleTimer simpleTimer-white simpleTimer-alignCenter simpleTimer-fly simpleTimer-box">timer1</div>
         <br>
-        <div id="timer2" class="simpleTimer simpleTimer-green simpleTimer-alignLeft simpleTimer-fly simpleTimer-box">timer2</div>
+        <div id="Timer2" class="simpleTimer simpleTimer-green simpleTimer-alignLeft simpleTimer-fly simpleTimer-box">timer2</div>
         <br>
-        <div id="timer3" class="simpleTimer simpleTimer-black simpleTimer-alignRight simpleTimer-fly simpleTimer-box">timer3</div>
+        <div id="Timer3" class="simpleTimer simpleTimer-black simpleTimer-alignRight simpleTimer-fly simpleTimer-box">timer3</div>
         <script>
             document.body.onload = function () {
                 timer1 = new SimpleTimer();
-                timer1.init("timer1");
+                timer1.init("Timer1");
 
                 setTimeout(function () {
                     timer2 = new SimpleTimer();
-                    timer2.init("timer2");
+                    timer2.init("Timer2");
                 }, 1000);
 
                 setTimeout(function () {
                     timer3 = new SimpleTimer();
-                    timer3.init("timer3");
+                    timer3.init("Timer3");
                 }, 2000);
             };
         </script>
